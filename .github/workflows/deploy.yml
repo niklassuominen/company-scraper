@@ -23,7 +23,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r CompanyScraper/requirements.txt
           playwright install
-
       - name: Deploy to Azure Functions
         uses: Azure/functions-action@v1
         with:
